@@ -71,9 +71,10 @@ dependencies {
 
     implementation('guru.nidi:graphviz-java:0.7.0')
     implementation('org.slf4j:slf4j-nop:1.7.30')
-
+    implementation('org.topbraid:shacl:1.0.1')
+    implementation('org.apache.commons:commons-collections4:4.4')
     testImplementation('junit:junit:4.12')
-
+   
     // used in cartago web infrastructure
     implementation "io.vertx:vertx-core:3.7.0"
     implementation "io.vertx:vertx-sync:3.7.0"
